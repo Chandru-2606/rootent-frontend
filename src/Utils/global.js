@@ -1,3 +1,3 @@
 export default {
-    baseURL: 'http://localhost:4000/api',
+    baseURL: 'https://rootent-backend-zfkr.vercel.app/api',
 };
