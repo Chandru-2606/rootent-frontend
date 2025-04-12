@@ -30,6 +30,7 @@ function Signup() {
     try {
       setError('');
       await registerUser(data);
+      snackbar("User Register", "success")
       navigate('/login');
     } catch (err) {
       snackbar(err.response?.data?.message || 'Registration failed. Please try again.',  'error');
